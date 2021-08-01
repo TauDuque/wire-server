@@ -7,6 +7,7 @@ class Seasons extends Model {
         temporada: DataTypes.STRING,
         plot: DataTypes.TEXT("long"),
         final: DataTypes.TEXT("long"),
+        hero_img: DataTypes.STRING,
       },
       {
         sequelize,
